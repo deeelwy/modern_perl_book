@@ -25,6 +25,7 @@ You don't have to install a new version of Perl to take advantage of most of
 this book, but the examples given assume that you're using Perl 5.10 or newer.
 Unless otherwise mentioned, code snippets always assume the basic skeleton of a
 program:
+[Should you :%s/Perl\(whatever negative lookahead is=\s\d\)/Perl 5/g?] 
 
 =begin programlisting
 
