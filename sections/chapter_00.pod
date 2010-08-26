@@ -5,6 +5,7 @@ tool for system administration somewhere between shell scripting and C
 programming (Perl 1) to a powerful, general purpose language steeped in a rich
 heritage (Perl 5) and a consistent, coherent, rethinking of programming in
 general intended to last for another 25 years (Perl 6).
+[ Explain how Perl 6 is a new version of Perl, and maybe reference Rakudo *]
 
 Even so, most Perl 5 programs in the world take far too little advantage of the
 language.  You I<can> write Perl 5 programs as if they were Perl 4 programs (or
