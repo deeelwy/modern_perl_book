@@ -25,6 +25,8 @@ You don't have to install a new version of Perl to take advantage of most of
 this book, but the examples given assume that you're using Perl 5.10 or newer.
 Unless otherwise mentioned, code snippets always assume the basic skeleton of a
 program:
+[You need to explain what Modern::Perl is, and what actions it performs on your
+behalf]
 
 =begin programlisting
 
