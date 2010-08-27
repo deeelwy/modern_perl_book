@@ -123,6 +123,7 @@ sound and graphics libraries and wrappers for shared libraries on your system.
 
 Modern Perl without the CPAN is just another language.  Modern Perl with the
 CPAN is amazing.
+[Does 'CPAN' sound better than 'the CPAN'?]
 
 =begin sidebar
 
