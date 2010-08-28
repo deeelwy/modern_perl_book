@@ -46,7 +46,6 @@ X<strings; single-quoted>
 Characters in a I<single-quoted string> represent themselves literally, with
 two exceptions.  You may embed a single quote inside a single-quoted string by
 escaping the quote with a leading backlash:
-[Does "escaping" need to be explained?]
 
 =begin programlisting
 
