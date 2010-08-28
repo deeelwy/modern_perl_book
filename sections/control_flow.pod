@@ -391,7 +391,6 @@ The C<Want> module available from the CPAN allows you to detect boolean context
 within your own functions.  The core C<overloading> pragma (L<overloading>,
 L<pragmas>) allows you to specify what your own data types produce when
 evaluated in a boolean context.
-[You can't make your own "data types" in perl]
 
 =end sidebar
 
