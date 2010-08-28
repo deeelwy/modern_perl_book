@@ -113,6 +113,7 @@ X<strings; interpolation>
 
 You may also I<interpolate> the value of a scalar variable or the values of an
 array within a double-quoted string directly:
+[What does interpolate actually mean?  Should you further explain it?]
 
 =begin programlisting
 
