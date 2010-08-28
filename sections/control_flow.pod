@@ -468,6 +468,7 @@ will remain outside the loop:
     }
 
     is( $i, 'cow', 'Lexical variable not overwritten in outer scope' );
+[Should you provide the output from some, many, most, all of your examples?]
 
 =end programlisting
 
