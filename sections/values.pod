@@ -305,6 +305,7 @@ You may also modify an existing filehandle with C<binmode>:
 =end programlisting
 
 This works for input as well as output:
+[This refers to "input," but the actual example is output.]
 
 =begin programlisting
 
