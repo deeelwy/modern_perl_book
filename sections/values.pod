@@ -540,6 +540,8 @@ representations:
 =end programlisting
 
 The emboldened characters are the numeric prefixes for binary, octal, and hex
+[In my html printout nothings is emboldened.  So make sure it is in the final
+version for the printer.]
 notation respectively.  Be aware that the leading zero always indicates octal
 mode; this can occasionally produce unanticipated confusion.
 
