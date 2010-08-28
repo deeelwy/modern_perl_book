@@ -192,6 +192,7 @@ X<control flow directives; elsif>
 One or more C<elsif> directives may follow an C<if> block form and may precede
 any single C<else>.  You may use as many C<elsif> blocks as you like, but you
 may not change the order in which the block types appear:
+[Why is it elsif instead of else if like in every other programming language?]
 
 =begin programlisting
 
