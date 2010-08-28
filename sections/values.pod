@@ -235,6 +235,7 @@ languages, and various other symbols.  Each character has a I<codepoint>, a own
 unique number which identifies it in the Unicode character set.
 
 =item Sequences of octets
+[Should you say "byte" instead of "octet?"]
 
 Binary data is a sequence of 8 bit numbers, each of which can represent a
 number between 0 and 255.
