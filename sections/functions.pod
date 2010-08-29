@@ -735,7 +735,6 @@ provide a much better syntax (and even better performance).  Yuval Kogman's
 C<Sub::Call::Tail> is worth exploring if you find yourself with highly
 recursive code or code that could benefit from tail call elimination.
 C<Sub::Call::Tail> is appropriate for tail calls of non-recursive code:
-[Should you mention what the other CPAN module is?]
 
 =begin programlisting
 
