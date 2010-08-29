@@ -317,8 +317,6 @@ value:
 
 The C<while> loop is important to the C<each> example, as you cannot declare
 multiple lexical loop iterator variables in a C<for> loop.
-[Yes you can do that while loop above in a for loop.  The loop you cannot do it
-in is a foreach loop.]
 
 =end sidebar
 
