@@ -497,7 +497,9 @@ a logfile:
 The initial value of a hash value is C<undef>.  The postincrement operator
 (C<++>) treats that as zero.  This in-place modification of the value
 increments an existing value for that key.  If no value exists for that key, it
-creates a value (C<undef>) and immediately increments it to one.
+creates a value (C<undef>) and immediately increments it to one, because when
+C<undef> is used as a value it means 0 in numeric context or empty string
+(C<"">) in string context.
 
 X<hashes; caching>
 X<hashes; orcish maneuver>
