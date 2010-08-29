@@ -348,8 +348,6 @@ Reset a hash's iterator with the use of C<keys> or C<values> in void context:
 
 You should also ensure that you do not call any function which may itself try
 to iterate over the hash with C<each>.
-[Are you actually saying that I should check every library I call on CPAN and
-its dependencies if it happens to use each?  If so, this is unreasonable.]
 
 =begin sidebar
 
