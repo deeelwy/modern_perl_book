@@ -145,7 +145,7 @@ This may seem useless, but it combines nicely with other regex features to
 indicate that you don't care about what may or may not be in that particular
 position in the string to match.  Even so, I<most> regular expressions benefit
 from using the C<?> and C<+> quantifiers far more than the C<*>
-quantifierN<Friedl's book explains why.>.
+quantifier.
 
 X<numeric quantifiers>
 
