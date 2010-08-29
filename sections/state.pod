@@ -98,32 +98,3 @@ counter example:
 =end programlisting
 
 ... though there are few obvious benefits to this approach.
-
-=begin sidebar
-
-Perl 5.10 deprecated a technique from previous versions of Perl by which you
-could effectively emulate C<state>.  Using a postfix conditional which evaluates
-to false with a C<my> declaration avoids I<reinitializing> a lexical variable
-to C<undef> or its initialized value.  In effect, a named function can close
-over its previous lexical scope by abusing a quirk of implementation.
-
-
-Any use of a postfix conditional expression modifying a lexical variable
-declaration now produces a deprecation warning.  It's too easy to write
-inadvertently buggy code with this technique; use C<state> instead where
-available, or a true closure otherwise.  Avoid this idiom, but understand it if
-you encounter it:
-
-=begin programlisting
-
-    sub inadvertent_state
-    {
-        # DEPRECATED; do not use
-        my $counter = 1 if 0;
-
-        ...
-    }
-
-=end programlisting
-
-=end sidebar
