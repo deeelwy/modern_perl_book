@@ -518,7 +518,6 @@ they match.  To use literal parentheses in a regular expression, you must
 preface them with a backslash, just as in the C<$area_code> variable.
 
 =head3 Anonymous Captures
-[Is "Numbered Captures" more clear?]
 
 X<anonymous captures>
 X<captures; anonymous>
