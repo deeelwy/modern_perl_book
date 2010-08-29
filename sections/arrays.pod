@@ -304,6 +304,7 @@ X<list context; arrays>
 
 In list context, arrays flatten into lists.  If you pass multiple arrays to a
 normal Perl 5 function, they will flatten into a single list:
+[Explain "flatten" with a graphic?]
 
 =begin programlisting
 
