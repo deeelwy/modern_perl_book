@@ -25,6 +25,7 @@ The match operator (C<//> or, more formally, C<m//>) contains a regular
 expression--in this example, C<hat>.  Even though that reads like a word, it
 means "the C<h> character, followed by the C<a> character, followed by the C<t>
 character, appearing anywhere in the string."  Each character is an I<atom> in
+[But what about metacharacters?  Is \s two atoms or just one?]
 the regex: an indivisible unit of the pattern.  The regex binding operator
 (C<=~>) is an infix operator (L<fixity>) which applies the regular expression
 on its right to the string produced by the expression on its left.  When
