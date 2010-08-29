@@ -263,7 +263,6 @@ global and package global variables and never lexical variables.
 
 You I<can> localize functions and methods, but that's deep magic to avoid
 unless absolutely necessary.
-[Delete this sidebar, or add a sentence or two further explaining it.]
 
 =end sidebar
 
