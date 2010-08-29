@@ -49,10 +49,6 @@ X<$VERSION>
 Besides a package name (C<main> or C<MyCode> or any other allowable
 identifier), a package has a version and three implicit methods, C<VERSION()>,
 C<import()>, and C<unimport()>.
-[Aren't import() and unimport() usually provided by Export when you create a
-module?  So, to export from a module, do I actually need to subclass Export or
-load its import() method?  Also, If I'm completely wrong, could you explain what
-the stock import() and export() methods do.]
 
 The package's version is a series of numbers contained in a package global
 named C<$VERSION>.  By convention, versions tend to be a series of integers
