@@ -36,6 +36,7 @@ memorized.  The best way to manage precedence is to keep your expressions
 simple.  The second best way is to use parentheses to clarify precedence in
 complex expressions.  If you find yourself drowning in a sea of parentheses,
 see the first rule again.
+[Include a table of precendence]
 
 =head3 Associativity
 
