@@ -783,6 +783,7 @@ the dictionary which start with C<cat>.  One possibility is:
 Because the assertion is zero-width, it consumes none of the source string.
 Thus the anchored C<.*\Z> pattern fragment must be present; otherwise the
 capture would only capture the C<cat> portion of the source string.
+[You should cover the zero-with {negative,positive} look behind assertions.]
 
 =head2 Regex Modifiers
 
