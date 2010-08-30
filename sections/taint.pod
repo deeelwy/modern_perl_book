@@ -3,8 +3,6 @@
 Z<taint>
 
 Perl gives you tools with which to write programs securely.  These tools are no
-[Mention the perlsec manpage for generic security stuff, because this section
-only covers tainting, which is just one part of Perl security.]
 substitute for careful thought and planning, but they I<reward> caution and
 understanding and can help you avoid subtle mistakes.
 
