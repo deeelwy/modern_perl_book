@@ -255,7 +255,6 @@ X<BEGIN; implicit>
 X<modules; implicit BEGIN>
 
 Within a module, C<BEGIN> concerns tend not to matter because C<use> adds an
-[What are "BEGIN concerns?"]
 implicit C<BEGIN> around the C<require> and C<import> (L<importing>).  Any code
 outside of a function but inside the module will execute I<before> the
 C<import()> call occurs.  If you C<require> the module, however, there is no
