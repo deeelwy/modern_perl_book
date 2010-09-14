@@ -1,4 +1,4 @@
-=head3 Context
+=head1 Context
 
 Z<context_philosophy>
 
@@ -14,7 +14,8 @@ remainder of the sentence.
 
 Context in Perl is similar; the language understands expectations of the amount
 of data to provide as well as what kind of data to provide.  Perl will happily
-attempt to provide exactly what you ask for.
+attempt to provide exactly what you ask for--and you do this asking when you
+choose one operator over another.
 
 One type of context in Perl means that certain operators have different
 behavior if you want zero, one, or many results.  It's possible that a specific
@@ -27,12 +28,12 @@ string value, or a value that's either true or false.
 
 Context can be tricky if you try to write or read Perl code as a series of
 single expressions which stand apart from from their environments.  You may
-find yourself slapping your forehead after a long debugging session when you 
+find yourself slapping your forehead after a long debugging session when you
 discover that your assumptions about context were incorrect.  However, if you're
 cognizant of contexts, they can make your code clearer, more concise, and more
 flexible.
 
-=head4 Void, Scalar, and List Context
+=head2 Void, Scalar, and List Context
 
 Z<amount_context>
 
@@ -148,8 +149,7 @@ assignment forces.  Use the C<scalar> operator to enforce it:
 
 =end programlisting
 
-
-=head4 Numeric, String, and Boolean Context
+=head2 Numeric, String, and Boolean Context
 
 Z<value_contexts>
 
